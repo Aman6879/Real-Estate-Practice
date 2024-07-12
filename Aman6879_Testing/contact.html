@@ -1,0 +1,65 @@
+<!-- Assignment: 3 -->
+<!-- Amanjot Singh -->
+<!-- Student ID: 8776879 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - IT Solutions</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>IT Solutions</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Contact IT Solutions</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+        </fieldset>
+        <fieldset>
+          <legend>How can we assist you?</legend>
+          <label><input type="radio" name="inquiry" value="Web Development">Web Development</label>
+          <label><input type="radio" name="inquiry" value="Software Solutions">Software Solutions</label>
+          <label><input type="radio" name="inquiry" value="Network Setup">Network Setup</label>
+          <label><input type="radio" name="inquiry" value="Cybersecurity">Cybersecurity</label>
+          <label><input type="radio" name="inquiry" value="Other">Other</label>
+        </fieldset>
+        <fieldset>
+          <legend>Message</legend>
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Submit</legend>
+          <label><input type="checkbox" name="consent" required>I consent to the processing of my personal data.</label>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Amanjot Singh | Student ID: 8776879</p>
+  </footer>
+</body>
+</html>
